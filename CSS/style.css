@@ -1,0 +1,146 @@
+        /*GENERAL STYLES*/
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 100%;
+        }
+        
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        ul li {
+            list-style-type: none;
+        }
+        
+        p {
+            font-size: 13px;
+            line-height: 1.3em;
+        }
+        
+        .container {
+            margin: 0 auto;
+            width: 960px;
+            text-align: center;
+        }
+        /* HEADER */
+        
+        .header {
+            padding: 10px 0;
+            background-color: rgb(154, 2, 2);
+        }
+        
+        .header h1 {
+            color: white;
+            text-align: center;
+            s
+        }
+        
+        .header h4 {
+            color: grey;
+            text-align: right;
+        }
+        /* NAVIGATION */
+        
+        .login {
+            padding: 15px 0;
+            float: right;
+        }
+        
+        .page-navigation {
+            background-color: rgb(48, 48, 48);
+            min-height: 64px;
+        }
+        
+        .page-navigation li {
+            float: left;
+            width: 100px;
+        }
+        
+        .page-navigation a {
+            display: block;
+            color: white;
+            line-height: 4em;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .page-navigation label {
+            color: white;
+        }
+        
+        .page-navigation li a:hover {
+            color: orange;
+            background-color: gray;
+        }
+        /* MAIN */
+        
+        .main {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        table {
+            table-layout: fixed;
+            display: inline-block;
+            text-align: center;
+            margin: auto;
+        }
+        
+        td {
+            width: 70px;
+            height: 70px;
+            background-color: rgb(211, 210, 210);
+            border: solid white;
+            text-decoration: none;
+        }
+        
+        #second-tabel button,
+        #main-tabel button {
+            background-color: rgb(79, 79, 79);
+            font-weight: 500;
+            font-size: 50px;
+            width: 70px;
+            height: 70px;
+            cursor: pointer;
+            border: solid white;
+            border-width: thick;
+            text-decoration: none;
+            /* animation: myanim 5s linear 2s infinite alternate;*/
+        }
+        
+        #main-tabel span:hover {
+            border-color: chartreuse;
+            border-width: thick;
+        }
+        
+        #main-tabel td {
+            background-color: rgb(0, 0, 0);
+        }
+        
+        #chack_btn {
+            visibility: hidden;
+        }
+        
+        .btn {
+            color: white;
+            background-color: maroon;
+            font-weight: 300;
+            font-size: 60px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        /* FOOTER */
+        
+        .footer {
+            background-color: rgb(154, 2, 2);
+            color: white;
+            padding: 10px 0;
+            margin-top: 30px;
+            text-align: right;
+        }
