@@ -3,11 +3,16 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
             font-size: 100%;
+            background-color: rgb(222, 222, 222);
         }
         
         ul {
             margin: 0;
             padding: 0;
+        }
+        
+        input {
+            text-decoration: none;
         }
         
         a {
@@ -38,7 +43,14 @@
         .header h1 {
             color: white;
             text-align: center;
-            s
+        }
+        
+        #result {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -100px;
         }
         
         .header h4 {
@@ -70,7 +82,9 @@
             text-align: center;
         }
         
-        .page-navigation label {
+        .page-navigation label,
+        label,
+        span {
             color: white;
         }
         
@@ -82,7 +96,6 @@
         
         .main {
             text-align: center;
-            margin-top: 30px;
         }
         
         table {
@@ -93,22 +106,22 @@
         }
         
         td {
-            width: 70px;
-            height: 70px;
+            width: 80px;
+            height: 80px;
             background-color: rgb(211, 210, 210);
-            border: solid white;
+            border: solid rgb(222, 222, 222);
             text-decoration: none;
         }
         
         #second-tabel button,
         #main-tabel button {
-            background-color: rgb(79, 79, 79);
+            background-color: rgb(106, 104, 104);
             font-weight: 500;
             font-size: 50px;
-            width: 70px;
-            height: 70px;
+            width: 80px;
+            height: 80px;
             cursor: pointer;
-            border: solid white;
+            border: solid rgb(222, 222, 222);
             border-width: thick;
             text-decoration: none;
             /* animation: myanim 5s linear 2s infinite alternate;*/
@@ -120,20 +133,54 @@
         }
         
         #main-tabel td {
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(238, 238, 238);
         }
         
-        #chack_btn {
-            visibility: hidden;
-        }
-        
-        .btn {
-            color: white;
+        .btn,
+        .input_param,
+        #time {
+            color: rgb(222, 222, 222);
             background-color: maroon;
             font-weight: 300;
             font-size: 60px;
             text-decoration: none;
             cursor: pointer;
+        }
+        
+        .btn:hover,
+        .input_param:hover {
+            background-color: rgba(108, 1, 1, 0.68);
+        }
+        
+        #chack_btn {
+            visibility: hidden;
+        }
+        /* .input_param {
+            background-color: maroon;
+            font-weight: 400;
+            font-size: 40px;
+            color: white;
+            text-decoration: none;
+        }*/
+        
+        #param {
+            background-color: rgb(65, 65, 65);
+        }
+        /*timer */
+        
+        .base-timer__label {
+            position: absolute;
+            /* Size should match the parent container */
+            width: 300px;
+            height: 300px;
+            /* Keep the label aligned to the top */
+            top: 0;
+            /* Create a flexible box that centers content vertically and horizontally */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* Sort of an arbitrary number; adjust to your liking */
+            font-size: 48px;
         }
         /* FOOTER */
         

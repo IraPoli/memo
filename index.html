@@ -23,36 +23,57 @@
         </div>
     </header>
     <!--Navigation-->
-    <nav class="page-navigation">
+    <!--nav class="page-navigation">
         <div class="container">
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
-            </ul>
-            <!--Login form-->
-            <form action="#" class="login">
+            </ul-->
+    <!--Login form-->
+    <!--form action="#" class="login">
                 <label>Name:<input type="text"></label>
                 <label>Password:<input type="password"></label>
                 <input type="submit">
-            </form>
+            </!--form>
         </div>
-    </nav>
+    </!--nav-->
     <!--Main section-->
 
     <main class="main">
+        <!--game settings-->
+        <div id="param">
+            <button id="button" class="btn">Start New Game</button>
+            <label for="lines">rows :</label>
+            <input type="number" id="lines_len" class="input_param" name="lines" value="2" min="1" max="5">
+            <label for="colomn">colomn:</label>
+            <input type="number" id="lines_colomn" class="input_param" name="lines" value="3" min="2" max="5">
+
+            <span>select spead:</span>
+            <input type="radio" id="male" name="spead" value="8" class="input_param">
+            <label for="slow">Slow</label>
+            <input type="radio" id="female" name="spead" value="4" class="input_param" checked="checked">
+            <label for="normal">Normal</label>
+            <input type="radio" id="other" name="spead" value="1" class="input_param">
+            <label for="fast">Fast</label>
+
+
+        </div>
+
+        <!--Tabels-->
         <div class="container" id="main-container">
             <tabel id="main-tabel" class="table">
                 <tr>
                 </tr>
             </tabel>
-            <div><button id="chack_btn" class="btn">Chack</button></div>
+            <div><button id="chack_btn" class="btn">Try</button></div>
             <tabel id="second-tabel" class="table">
                 <tr>
 
                 </tr>
             </tabel>
-            <button id="button" class="btn">Start Game</button>
         </div>
+
+        <h1 id="result"></h1>
     </main>
 
 
